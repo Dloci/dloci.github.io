@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Barra de Navegación */
+nav {
+    background-color: #555;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Barra lateral */
+.sidebar {
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+
+/* Página de Contacto */
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-details {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-image img {
+    max-width: 200px;
+    height: auto;
+}
+
+.contact-map {
+    flex: 1;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.container{
+    padding: 5%;
+    margin-top: 30px;
+    margin-bottom: 500px;
+}
+.centered img {
+    max-width: 400px;
+    height: auto;
+    margin-top: 20px;
+}
